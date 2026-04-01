@@ -2,19 +2,15 @@ import React, { useEffect, useRef } from 'react';
 import * as L from 'leaflet';
 
 // Współrzędne: Radzymin, Nowa Lokalizacja
-const CENTER_LAT = 52.40898;
-const CENTER_LNG = 21.16302;
+const CENTER_LAT = 51.22172;
+const CENTER_LNG = 17.42520;
 
 const POIS = [
-  // Warszawa - Pałac Kultury i Nauki
-  { id: 1, lat: 52.41147, lng: 21.17744, title: "Sklep Lidl", dist: "2.1 km", icon: "shop" },
-  { id: 2, lat: 52.41517, lng: 21.17844, title: "Radzymiński Ośrodek Kultury i Sportu", dist: "2 km", icon: "waves" },
-  { id: 3, lat: 52.41721, lng: 21.16606, title: "Szkoła Podstawowa Nr 2", dist: "1.2 km", icon: "school" },
-  { id: 4, lat: 52.41342, lng: 21.18175, title: "Park Eleonory Czartoryskiej", dist: "2.6 km", icon: "park" },
-  { id: 5, lat: 52.42431, lng: 21.17552, title: "Radzymin- Stacja kolejowa", dist: "2.3 km", icon: "train" },
-  { id: 6, lat: 52.41806, lng: 21.18205, title: "Kolegiata pw. Przemienienia Pańskiego i św. Jana Chrzciciela", dist: "3.1 m", icon: "church" },
-  { id: 7, lat: 52.41088, lng: 21.17063, title: "Przedszkole i Żłobek Moje Montessori", dist: "850 m", icon: "kid" },
-  { id: 8, lat: 52.40766, lng: 21.17510, title: "Przystanek szybkiej linii R9", dist: "1.5 km", icon: "bus" },
+   { id: 1, lat: 51.21538, lng: 17.40615, title: "Centrum Pogodne- Galeria Handlowa", dist: "2.4 km", icon: "shop" },
+   { id: 2, lat: 51.22062, lng: 17.40552, title: "Zakład Opieki Zdrowotnej Zdrowie", dist: "2.9 km", icon: "pharmacy" },
+   { id: 3, lat: 51.14195, lng: 17.08735, title: "Centrum handlowe Korona we Wrocławiu", dist: "29.8 km", icon: "shop" },
+   { id: 4, lat: 51.21228, lng: 17.39629, title: "Szkoła Podstawowa nr. 6", dist: "3.5 km", icon: "school" },
+   { id: 5, lat: 51.22543, lng: 17.40895, title: "Przedszkole Montessori Fasolka", dist: "3.5 km", icon: "kid" },
 ];
 
 export const InteractiveMap: React.FC = () => {
@@ -49,7 +45,7 @@ export const InteractiveMap: React.FC = () => {
           <div class="investment-pulse"></div>
           <div class="investment-dot"></div>
           <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%); background: #551cff; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; white-space: nowrap; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-            Sybiraków
+            Osiedle Świerkowe
           </div>
         </div>
       `,
@@ -125,6 +121,13 @@ export const InteractiveMap: React.FC = () => {
           <circle cx="15" cy="15" r="1"></circle>
           <path d="M8 7h2M14 7h2"></path>
           <path d="M9 17v3M15 17v3"></path>
+        `;
+      } else if (poi.icon === "pharmacy") {
+        svgContent = `
+          <rect x="3" y="6" width="18" height="14" rx="2"></rect>
+          <path d="M12 10v6"></path>
+          <path d="M9 13h6"></path>
+          <path d="M9 3h6v3H9z"></path>
         `;
       }
        else { // Default / Przedszkole

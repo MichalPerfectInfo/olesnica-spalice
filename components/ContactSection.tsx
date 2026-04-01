@@ -9,16 +9,13 @@ export const AboutInvestor: React.FC = () => (
       <h2 className="text-3xl font-bold text-gray-900 mb-8">Inwestycje budowane na solidnych fundamentach</h2>
       <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
         <p>
-          TO DO to firma deweloperska z ogromnym doświadczeniem w realizacji kameralnych osiedli mieszkaniowych. 
-          Naszą misją jest tworzenie miejsc, które nie są tylko budynkami, ale prawdziwymi domami.
+          Firma DOMI-BUD Tomasz Wach to doświadczony deweloper specjalizujący się w realizacji kameralnych inwestycji mieszkaniowych. Naszym celem jest tworzenie przestrzeni, które stają się czymś więcej niż tylko budynkami - prawdziwym miejscem do życia.
         </p>
         <p>
-          Każda nasza inwestycja poprzedzona jest szczegółowymi badaniami gruntu oraz wnikliwą analizą lokalizacji. 
-          Wybieramy miejsca, które gwarantują wzrost wartości nieruchomości w czasie oraz komfort życia mieszkańców.
+          Każdy projekt rozpoczynamy od dokładnej analizy terenu oraz oceny potencjału lokalizacji. Stawiamy na miejsca, które zapewniają zarówno wygodę mieszkańcom, jak i długoterminowy wzrost wartości nieruchomości.
         </p>
         <p>
-          Współpracujemy wyłącznie ze sprawdzonymi wykonawcami i dostawcami materiałów budowlanych najwyższej jakości. 
-          Jesteśmy dumni z terminowości naszych realizacji i transparentności procesu sprzedaży.
+          Współpracujemy wyłącznie z rzetelnymi partnerami oraz korzystamy z wysokiej jakości materiałów budowlanych. Dbamy o terminową realizację inwestycji oraz przejrzystość na każdym etapie procesu sprzedaży.
         </p>
       </div>
       {/* Karta z obrazem w tle i przyciskiem */}
@@ -44,7 +41,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     // Send form via EmailJS using the imported module
     await emailjs.sendForm(
       "service_yr06mln",
-      "template_2jnjybp",
+      "template_bq5cm4q",
       form,
       { publicKey: "nF9ENLBFiedvKYVlF" } // Correct format for public key in v4
     );
@@ -83,21 +80,21 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
                  <div className="p-3 bg-primary-50 rounded-lg text-primary-700"><MapPin /></div>
                  <div>
                    <h4 className="font-bold text-gray-900 text-lg mb-1">Miejsce inwestycji</h4>
-                   <p className="text-gray-600">ul. Sybiraków 8<br/>05-250 Radzymin</p>
+                   <p className="text-gray-600">ul. Świerkowa-Jodłowa<br/>56-400 Spalice</p>
                  </div>
               </div>
               <div className="flex items-start gap-4">
                  <div className="p-3 bg-primary-50 rounded-lg text-primary-700"><Mail /></div>
                  <div>
                    <h4 className="font-bold text-gray-900 text-lg mb-1">Email</h4>
-                   <a /*href="mailto: TO DO"*/ className="text-primary-600 hover:text-primary-700 hover:underline transition-colors">TO DO</a>
+                   <a href="mailto: werbudpw@gmail.com" className="text-primary-600 hover:text-primary-700 hover:underline transition-colors">werbudpw@gmail.com</a>
                  </div>
               </div>
               <div className="flex items-start gap-4">
                  <div className="p-3 bg-primary-50 rounded-lg text-primary-700"><Phone /></div>
                  <div>
                    <h4 className="font-bold text-gray-900 text-lg mb-1">Telefon</h4>
-                   <a /*href="tel: TO DO "*/ className="block text-primary-600 hover:text-primary-700 hover:underline transition-colors">TO DO</a>
+                   <a href="tel:+48601401782 " className="block text-primary-600 hover:text-primary-700 hover:underline transition-colors">+48 601 401 782</a>
                  </div>
               </div>
             </div>
@@ -110,7 +107,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
                <img src="https://lh3.googleusercontent.com/pw/AP1GczPXEzn7YW05Lnap5GAIH3q4bpSJd3eBf_IC31_DYghyRpvD0S9Rd6FObkl1D-uCL9CJPxZPhavzRHVxve4oz8g5aqF1ozGoMf_E4mnG0U-PoT1BbzSspTBWKNWSV-xTLT7qlMozeD3Hz0wXgR7jRxeo=w1010-h669-s-no-gm?authuser=1" alt="Mapa" className="absolute inset-0 w-full h-full object-cover opacity-70 transition-opacity group-hover:opacity-90" />
                <div className="relative z-10 flex flex-col gap-3">
                   <a 
-                    href="https://maps.app.goo.gl/PHBemTcEYUvG7KRj6" 
+                    href="https://maps.app.goo.gl/J6kCXDHHGWUYCXY27" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white px-4 py-2 rounded shadow-md hover:shadow-lg transition-all text-gray-900 font-semibold text-sm"

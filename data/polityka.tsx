@@ -11,7 +11,7 @@ export const Polityka: React.FC = () => {
       <div>
         <h4 className="font-bold text-gray-800 text-base mb-1">1. Informacje ogólne</h4>
         <p>
-          Administratorem danych osobowych jest Daniel Świercz, prowadzący działalność pod firmą BRYLANTOWA - NIERUCHOMOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ z siedzibą w Rybienku Nowym (07-200), ul. Starej Baśni 6, NIP: 7622023285 (dalej jako: „Administrator”).
+          Administratorem danych osobowych jest Daniel Świercz, prowadzący działalność pod firmą Firma DOMI-BUD Tomasz Wach z siedzibą w Oleśnicy (56-400), ul. Kazimierza Pułaskiego, nr 7b, NIP: 9111769406 (dalej jako: „Administrator”).
         </p>
         <p className="mt-2">
           Kontakt z Administratorem jest możliwy pod adresem e-mail:{' '}
@@ -50,7 +50,7 @@ export const Polityka: React.FC = () => {
       <div>
         <h4 className="font-bold text-gray-800 text-base mb-1 mt-6">4. POLITYKA PLIKÓW COOKIES</h4>
         <p>
-          Serwis brylantowa-nieruchomosci.pl ogranicza wykorzystanie plików cookies wyłącznie do plików niezbędnych (technicznych), które są wymagane do prawidłowego wyświetlania i działania strony internetowej.
+          Serwis TO DO ogranicza wykorzystanie plików cookies wyłącznie do plików niezbędnych (technicznych), które są wymagane do prawidłowego wyświetlania i działania strony internetowej.
         </p>
         <p className="mt-2">
           Strona nie stosuje plików cookies o charakterze analitycznym, śledzącym ani marketingowym.

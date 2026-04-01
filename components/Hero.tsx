@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
             <span className="text-primary-600">Twój Nowy Dom</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
-           Inwestycja obejmuje budowę komfortowych, przestronnych i bezczynszowych mieszkań w zabudowie bliźniaczej dwulokalowej o podwyższonym standardzie z ogrodami na parterze i tarasami na piętrze.
+           Świerkowe Osiedle to kameralna inwestycja stworzona z myślą o osobach ceniących spokój, komfort i bliskość natury. Położona w Spalicach koło Oleśnicy, łączy ciszę przedmieść z szybkim dojazdem do Wrocławia.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <a 
@@ -58,47 +58,35 @@ export const Hero: React.FC = () => {
           <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-5 py-3 rounded-lg shadow-md max-w-xs">
              <p className="text-xs text-gray-500 uppercase font-bold tracking-wider mb-1">Status budowy</p>
              <p className="font-bold text-lg text-primary-600">W REALIZACJI</p>
-             <p className="text-xs text-gray-500 uppercase font-bold tracking-wider mb-1">Planowany koniec budowy TO DO</p>
+             <p className="text-xs text-gray-500 uppercase font-bold tracking-wider mb-1">Planowany koniec budowy - czerwiec 2026</p>
           </div>
         </div>
       </div>
 
-      {/* ========== SEKCJA: INNE INWESTYCJE ========== */}
-      <div id="inne-inwestycje" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 scroll-mt-24">
+      {false && (
+        <div id="inne-inwestycje" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 scroll-mt-24">
         <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
-          {/* Obraz w tle - aspect-ratio zamiast fixed height żeby nie ucinało */}
           <div className="relative w-full aspect-[4/3] sm:aspect-[16/7] lg:aspect-[21/7]">
             <img
-              /* TO DO src={} */
+              /* src={} */
               alt="Nasze inwestycje"
               className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-          
-          {/* Gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-800/70 to-primary-700/20" />
-          
-          {/* Content */}
           <div className="absolute inset-0 flex items-center">
             <div className="px-6 sm:px-12 lg:px-16 max-w-2xl py-8">
-              {/* Badge */}
               <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-sm rounded-full mb-4 sm:mb-6">
                 <Award className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary-300" />
                 <span className="text-primary-100 text-xs sm:text-sm font-semibold tracking-wide">Sprawdzony deweloper</span>
               </div>
-              
-              {/* Heading */}
               <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 leading-tight">
                 Poznaj nasze<br />
                 <span className="text-primary-300">inne inwestycje</span>
               </h3>
-              
-              {/* Description */}
               <p className="text-primary-100/90 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-md leading-relaxed">
                 Zaufaj doświadczeniu. Zobacz zrealizowane projekty i przekonaj się o jakości naszych realizacji.
               </p>
-              
-              {/* CTA Button */}
               <a
                 href="https://szmaragdowa-nieruchomosci.pl/"
                 target="_blank"
@@ -110,12 +98,11 @@ export const Hero: React.FC = () => {
               </a>
             </div>
           </div>
-          
-          {/* Decorative elements - hidden on mobile */}
           <div className="hidden sm:block absolute top-6 right-6 w-24 h-24 border-2 border-white/10 rounded-full" />
           <div className="hidden sm:block absolute bottom-10 right-20 w-16 h-16 border-2 border-white/10 rounded-full" />
         </div>
       </div>
+    )}
 
       {/* Features Bar */}
       <div className="relative z-10 py-12 px-4">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Car, Train, TreePine, ShoppingCart, Layers, Shield, Droplets, Grid, Flame, Wind, VolumeX, Building2, School, Waves, Bus } from 'lucide-react';
+import { MapPin, Car, Train, TreePine, ShoppingCart, Layers, Shield, Droplets, Grid, Flame, Wind, VolumeX, Building2, School, Waves, Bus, Plus, Store, Baby } from 'lucide-react';
 import { InteractiveMap } from './InteractiveMap';
 import { InteractiveEstateMap } from './InteractiveEstateMap';
 import ogrod from "../assets/widok_4.jpg";
@@ -29,16 +29,16 @@ export const LocationSection: React.FC = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
         <div className="inline-block px-3 py-1 rounded-full bg-primary-100 text-primary-800 text-xs font-bold uppercase tracking-wider mb-4">Lokalizacja</div>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">Tylko 30 minut <br/>od serca Warszawy</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">Tylko 30 minut <br/>od serca Wrocławia</h2>
         <p className="text-gray-600 mb-8 leading-relaxed">
           Świerkowe Osiedle to inwestycja skierowana do osób, które poszukują spokojnego miejsca, oddalonego od miejskiego zgiełku, ale zarazem w bliskiej odległości od miasta.
         </p>
         <div className="space-y-4">
-          <LocationCard icon={<Car size={20} />} title="Centrum Warszawy (33 km)" time="31 minut samochodem" />
-          <LocationCard icon={<Building2 size={20} />} title="Przedszkole i Żłobek Moje Montessori (850 m)" time="12 min spacerem" />
-          <LocationCard icon={<School size={20} />} title="Szkoła Podstawowa Nr 2 (1.2 km)" time="16 minut spacerem" />
-          <LocationCard icon={<Waves size={20} />} title="Radzymiński Ośrodek Kultury i Sportu (2 km)" time="5 minuty samochodem" />
-          <LocationCard icon={<Bus size={20} />} title="Przystanek szybkiej linii R9 (1.4 km)" time="16 minut spacerem" />
+          <LocationCard icon={<Store size={20} />} title="Centrum Pogodne- Galeria Handlowa" time="5 minut samochodem" />
+          <LocationCard icon={<Plus size={20} />} title="Zakład Opieki Zdrowotnej Zdrowie" time="5 minut samochodem" />
+          <LocationCard icon={<Store size={20} />} title="Centrum handlowe Korona we Wrocławiu" time="34 minuty samochodem" />
+          <LocationCard icon={<School size={20} />} title="Szkoła Podstawowa nr. 6" time="6 minut samochodem" />
+          <LocationCard icon={<Baby size={20} />} title="Przedszkole Montessori Fasolka" time="6 minut samochodem" />
         </div>
       </div>
       
@@ -70,9 +70,9 @@ export const InfrastructureSection: React.FC = () => (
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <InfraCard icon={<MapPin className="w-8 h-8 text-primary-600" />} title="Centrum miasta" desc="5 min spacerem" />
-        <InfraCard icon={<TreePine className="w-8 h-8 text-primary-600" />} title="Park i place zabaw" desc="5 min spacerem" />
-        <InfraCard icon={<ShoppingCart className="w-8 h-8 text-primary-600" />} title="Centrum handlowe" desc="8 min samochodem" />
+        <InfraCard icon={<Store className="w-8 h-8 text-primary-600" />} title="Centrum Pogodne- Galeria Handlowa" desc="5 minut samochodem" />
+        <InfraCard icon={<TreePine className="w-8 h-8 text-primary-600" />} title="Szkoła Podstawowa nr. 6" desc="6 minut samochodem" />
+        <InfraCard icon={<ShoppingCart className="w-8 h-8 text-primary-600" />} title="Przedszkole Montessori Fasolka" desc="6 minut samochodem" />
       </div>
     </div>
   </section>
@@ -100,12 +100,11 @@ export const StandardsSection: React.FC = () => (
           <div className="w-12 h-1 bg-primary-600 mb-6 rounded-full"></div>
           <h3 className="text-3xl font-bold text-gray-900 mb-4">Bezczynszowe mieszkania na kameralnym osiedlu</h3>
           <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-            Opis- TO DO
+            Nowoczesne, bezczynszowe mieszkania w zabudowie bliźniaczej zostały zaprojektowane z myślą o wygodzie i funkcjonalności. Podwyższony standard wykończenia zapewnia komfort codziennego życia.
           </p>
           <ul className="space-y-4">
-             <StandardListItem icon={<Shield size={20} />} text="TO DO" />
-             <StandardListItem icon={<Shield size={20} />} text="TO DO" />
-             <StandardListItem icon={<Shield size={20} />} text="TO DO" />
+             <StandardListItem icon={<Flame size={20} />} text="Ogrzewanie podłogowe" />
+             <StandardListItem icon={<Shield size={20} />} text="Drzwi antywłamaniowe" />
           </ul>
         </div>
       </div>
@@ -202,7 +201,7 @@ export const LayoutInfo: React.FC = () => (
     </div>
 
     {/* JEDNA KARTA */}
-    <div className="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+    {/* <div className="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
       
       <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
         Komfortowe mieszkanie rodzinne
@@ -234,7 +233,7 @@ export const LayoutInfo: React.FC = () => (
         </li>
       </ul>
 
-    </div>
+    </div> */}
   </div>
 </section>
 );

@@ -4,7 +4,7 @@ export interface Apartment {
   rooms: number;
   floor: number;
   area: number;
-  gardenArea: number;
+  gardenArea?: number;
   polygonPoints?: string | string[]; // Współrzędne dla SVG mapy (opcjonalne)
   imageUrls?: string[]; // Ścieżki do obrazów rzutów mieszkania (opcjonalne)
 }
