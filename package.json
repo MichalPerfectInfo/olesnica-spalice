@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https:brylantowa-nieruchomosci.pl",
+  
+  "homepage": "https://MichalPerfectInfo.github.io/olesnica-spalice",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "leaflet": "1.9.4",
