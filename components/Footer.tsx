@@ -15,13 +15,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white inline-block">Deweloper</h4>
             <div className="text-gray-400 text-sm space-y-3">
-              <p className="font-bold text-white text-lg mb-2">Brylantowa Nieruchomości Sp. z o.o.</p>
-              <p>ul. Starej Baśni 6, Rybienko Nowe</p>
-              <p>07-200 Wyszków</p>
+              <p className="font-bold text-white text-lg mb-2">DOMI-BUD Tomasz Wach</p>
+              <p>ul. Kazimierza Pułaskiego 7b</p>
+              <p>56-400, Oleśnica</p>
               <div className="pt-4 space-y-1 text-xs opacity-60">
-                <p>NIP: 7622023285</p>
-                <p>KRS: 0001137114</p>
-                <p>REGON: 540123090</p>
+                <p>NIP: 9111769406</p>
               </div>
             </div>
           </div>
@@ -51,11 +49,9 @@ export const Footer: React.FC = () => {
           <div>
              <h4 className="text-lg font-bold mb-6 text-white inline-block">Umów spotkanie</h4>
              <div className="text-gray-400 text-sm space-y-4">
-               <p>Biuro Sprzedaży czynne:</p>
-               <p>Pn-Pt: 9:00 - 17:00</p>
                <p>
-                 <a href="mailto:daniel.swiercz@onet.pl" className="hover:text-white block mb-1 underline decoration-primary-500 underline-offset-4">daniel.swiercz@onet.pl</a>
-                 <a href="tel:+48519452981" className="hover:text-white font-bold block text-lg mt-2 text-white">+48 519 452 981</a>
+                 <a href="mailto:werbudpw@gmail.com" className="hover:text-white block mb-1 underline decoration-primary-500 underline-offset-4">werbudpw@gmail.com</a>
+                 <a href="tel:+48601401782" className="hover:text-white font-bold block text-lg mt-2 text-white">+48 601 401 782</a>
                </p>
              </div>
           </div>

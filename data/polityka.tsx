@@ -15,8 +15,8 @@ export const Polityka: React.FC = () => {
         </p>
         <p className="mt-2">
           Kontakt z Administratorem jest możliwy pod adresem e-mail:{' '}
-          <a href="mailto:daniel.swiercz@onet.pl" className="text-primary-600 hover:underline font-medium">
-            daniel.swiercz@onet.pl
+          <a href="mailto:twach@poczta.onet.pl" className="text-primary-600 hover:underline font-medium">
+            twach@poczta.onet.pl
           </a>.
         </p>
         <p className="mt-2">

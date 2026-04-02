@@ -2,6 +2,7 @@ import React, { useState, FormEvent } from 'react';
 import { Mail, Phone, MapPin, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 import emailjs from "@emailjs/browser";
 import { Polityka }  from "../data/polityka";
+import dojazd from "../assets/auto.jpg";
 
 export const AboutInvestor: React.FC = () => (
   <section id="o-inwestorze" className="py-20 bg-gray-50 scroll-mt-20">
@@ -104,7 +105,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100" id="formularz">
             {/* Map Placeholder */}
             <div className="w-full h-56 bg-gray-100 rounded-xl mb-8 relative overflow-hidden flex items-center justify-center group">
-               <img src="https://lh3.googleusercontent.com/pw/AP1GczPXEzn7YW05Lnap5GAIH3q4bpSJd3eBf_IC31_DYghyRpvD0S9Rd6FObkl1D-uCL9CJPxZPhavzRHVxve4oz8g5aqF1ozGoMf_E4mnG0U-PoT1BbzSspTBWKNWSV-xTLT7qlMozeD3Hz0wXgR7jRxeo=w1010-h669-s-no-gm?authuser=1" alt="Mapa" className="absolute inset-0 w-full h-full object-cover opacity-70 transition-opacity group-hover:opacity-90" />
+               <img src={dojazd} alt="Mapa" className="absolute inset-0 w-full h-full object-cover opacity-70 transition-opacity group-hover:opacity-90" />
                <div className="relative z-10 flex flex-col gap-3">
                   <a 
                     href="https://maps.app.goo.gl/J6kCXDHHGWUYCXY27" 
