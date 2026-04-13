@@ -185,8 +185,8 @@ export const InteractiveEstateMap: React.FC = () => {
   return (
     <>
     <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-gray-900 group select-none" ref={containerRef}>
-      
-      <div className="absolute bottom-4 right-4 z-30 flex flex-col gap-2 items-end">
+      {/* DRAWING */}
+      {/* <div className="absolute bottom-4 right-4 z-30 flex flex-col gap-2 items-end">
         <button 
           onClick={() => {
             setIsDrawingMode(!isDrawingMode);
@@ -197,7 +197,7 @@ export const InteractiveEstateMap: React.FC = () => {
           {isDrawingMode ? <X size={16} /> : <PenTool size={16} />}
           {isDrawingMode ? 'Anuluj' : 'Rysuj nowy kształt'}
         </button>
-      </div>
+      </div> */}
 
       {isDrawingMode && (
         <div 
@@ -324,12 +324,12 @@ export const InteractiveEstateMap: React.FC = () => {
               <span className="text-gray-500">Powierzchnia:</span>
               <span className="font-bold text-gray-900">{hoveredBuilding.area} m²</span>
             </div>
-            {/* {hoveredBuilding.gardenArea > 0 && (
-              <div className="flex justify-between">
-                <span className="text-gray-500">Ogródek:</span>
-                <span className="font-bold text-gray-900">{hoveredBuilding.gardenArea} m²</span>
-              </div>
-            )} */}
+            <div className="flex justify-between">
+              <span className="text-gray-500">Planowany koniec budowy:</span>
+              <span className="font-bold text-gray-900">
+                {hoveredBuilding.number.includes("A") ? "lipiec 2026" : "marzec 2027"}
+              </span>
+            </div>
           </div>
           <div className="mt-3 pt-3 border-t border-gray-100 text-[11px] font-bold text-center">
             {hoveredBuilding.imageUrls && hoveredBuilding.imageUrls.length > 0

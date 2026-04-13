@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import * as L from 'leaflet';
 
 // Współrzędne: Radzymin, Nowa Lokalizacja
-const CENTER_LAT = 51.22172;
-const CENTER_LNG = 17.42520;
+const CENTER_LAT = 51.22028;
+const CENTER_LNG = 17.42697;
+
 
 const POIS = [
    { id: 1, lat: 51.21538, lng: 17.40615, title: "Centrum Pogodne- Galeria Handlowa", dist: "2.4 km", icon: "shop" },
@@ -45,7 +46,7 @@ export const InteractiveMap: React.FC = () => {
           <div class="investment-pulse"></div>
           <div class="investment-dot"></div>
           <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%); background: #551cff; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; white-space: nowrap; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-            Osiedle Świerkowe
+            Osiedle Sosnowe
           </div>
         </div>
       `,

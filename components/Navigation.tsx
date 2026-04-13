@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, HeartOff } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const navLinks = [
   //{ name: "Inne inwestycje", href: "#inne-inwestycje"},
@@ -28,9 +29,9 @@ export const Navigation: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center">
-            <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center gap-2 cursor-pointer group">
-              <span className="font-bold text-2xl tracking-tight text-white bg-primary-600 rounded-lg p-1">Osiedle Świerkowe </span>
+          <div className="flex-shrink-0 flex items-center h-full">
+            <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center cursor-pointer group h-full">
+              <img src={logo} alt="Osiedle Sosnowe" className="h-24 w-auto object-contain translate-y-1" />
             </a>
           </div>
 

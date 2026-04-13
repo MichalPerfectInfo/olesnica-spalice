@@ -5,7 +5,7 @@ import karty3_4 from "../assets/karty2.jpg";
 export const APARTMENTS_DATA: Apartment[] = [
   { 
     id: 0, 
-    number: '1', 
+    number: '1B', 
     rooms: 6,
     floor: 0,
     area: 71.89, 
@@ -18,7 +18,7 @@ export const APARTMENTS_DATA: Apartment[] = [
   },
   { 
     id: 1, 
-    number: '3', 
+    number: '3B', 
     rooms: 6,
     floor: 1,
     area: 71.58, 
@@ -31,7 +31,7 @@ export const APARTMENTS_DATA: Apartment[] = [
   },
   { 
     id: 2, 
-    number: '2', 
+    number: '2B', 
     rooms: 6,
     floor: 0,
     area: 71.89, 
@@ -44,7 +44,7 @@ export const APARTMENTS_DATA: Apartment[] = [
   },
   { 
     id: 3, 
-    number: '4', 
+    number: '4B', 
     rooms: 6,
     floor: 1,
     area: 71.58, 
@@ -54,5 +54,58 @@ export const APARTMENTS_DATA: Apartment[] = [
     imageUrls: [
      karty3_4
     ]
+  },
+  { 
+    id: 4, 
+    number: '1A', 
+    rooms: 6,
+    floor: 0,
+    area: 71.89, 
+    polygonPoints: [
+      "129,628,244,639,243,529,133,529"
+    ],
+    imageUrls: [
+     karty1_2
+    ]
+  },
+  { 
+    id: 5, 
+    number: '2A', 
+    rooms: 6,
+    floor: 0,
+    area: 71.89, 
+    polygonPoints: [
+      "263,639,396,649,393,529,263,529"
+    ],
+    imageUrls: [
+     karty1_2
+    ]
+  },
+  { 
+    id: 6, 
+    number: '3A', 
+    rooms: 6,
+    floor: 1,
+    area: 71.58, 
+    polygonPoints: [
+      "133,523,129,450,146,418,241,410,241,521"
+    ],
+    imageUrls: [
+     karty3_4
+    ]
+  },
+  { 
+    id: 7, 
+    number: '4A', 
+    rooms: 6,
+    floor: 1,
+    area: 71.58, 
+    polygonPoints: [
+      "259,519,259,405,393,393,395,515"
+    ],
+    imageUrls: [
+     karty3_4
+    ]
   }
+  
 ]

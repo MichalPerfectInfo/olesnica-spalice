@@ -23,11 +23,11 @@ export const Hero: React.FC = () => {
             Nowa Inwestycja w Spalicach
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Zielona Przystań <br />
+            Sosnowe Osiedle <br />
             <span className="text-primary-600">Twój Nowy Dom</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
-           Świerkowe Osiedle to kameralna inwestycja stworzona z myślą o osobach ceniących spokój, komfort i bliskość natury. Położona w Spalicach koło Oleśnicy, łączy ciszę przedmieść z szybkim dojazdem do Wrocławia.
+           Sosnowe Osiedle to kameralna inwestycja stworzona z myślą o osobach ceniących spokój, komfort i bliskość natury. Położona w Spalicach koło Oleśnicy, łączy ciszę przedmieść z szybkim dojazdem do Wrocławia.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <a 

@@ -31,7 +31,7 @@ export const LocationSection: React.FC = () => (
         <div className="inline-block px-3 py-1 rounded-full bg-primary-100 text-primary-800 text-xs font-bold uppercase tracking-wider mb-4">Lokalizacja</div>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">Tylko 30 minut <br/>od serca Wrocławia</h2>
         <p className="text-gray-600 mb-8 leading-relaxed">
-          Świerkowe Osiedle to inwestycja skierowana do osób, które poszukują spokojnego miejsca, oddalonego od miejskiego zgiełku, ale zarazem w bliskiej odległości od miasta.
+          Osiedle Sosnowe to inwestycja skierowana do osób, które poszukują spokojnego miejsca, oddalonego od miejskiego zgiełku, ale zarazem w bliskiej odległości od miasta.
         </p>
         <div className="space-y-4">
           <LocationCard icon={<Store size={20} />} title="Centrum Pogodne- Galeria Handlowa" time="5 minut samochodem" />
