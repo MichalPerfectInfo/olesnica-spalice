@@ -2,9 +2,7 @@ import React from 'react';
 import { MapPin, Car, Train, TreePine, ShoppingCart, Layers, Shield, Droplets, Grid, Flame, Wind, VolumeX, Building2, School, Waves, Bus, Plus, Store, Baby } from 'lucide-react';
 import { InteractiveMap } from './InteractiveMap';
 import { InteractiveEstateMap } from './InteractiveEstateMap';
-import ogrod from "../assets/widok_4.jpg";
-import widok from "../assets/widok_02.jpg";
-import zima from "../assets/widok_zima.jpg";
+
 
 export const VisualNavigator: React.FC = () => (
   <section id="nawigator" className="py-20 bg-gray-50 scroll-mt-20">
@@ -94,7 +92,7 @@ export const StandardsSection: React.FC = () => (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
-           <img src={widok}  alt="Osiedle" className="rounded-2xl shadow-lg" />
+           <img src="/olesnica-spalice/assets/widok_02.jpg"  alt="Osiedle" className="rounded-2xl shadow-lg" />
         </div>
         <div className="order-1 lg:order-2">
           <div className="w-12 h-1 bg-primary-600 mb-6 rounded-full"></div>
@@ -126,7 +124,7 @@ export const StandardsSection: React.FC = () => (
           </ul>
         </div>
         <div>
-           <img src= {zima} />
+           <img src="/olesnica-spalice/assets/widok_zima.jpg" />
         </div>
       </div>
     </div>
@@ -135,7 +133,7 @@ export const StandardsSection: React.FC = () => (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
-           <img src={ogrod} alt="Ogród" className="rounded-2xl shadow-lg" />
+           <img src="/olesnica-spalice/assets/widok_4.jpg" alt="Ogród" className="rounded-2xl shadow-lg" />
         </div>
         <div className="order-1 lg:order-2">
           <div className="w-12 h-1 bg-primary-600 mb-6 rounded-full"></div>

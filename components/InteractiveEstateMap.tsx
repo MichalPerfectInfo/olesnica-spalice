@@ -3,7 +3,7 @@ import { APARTMENTS_DATA } from '../data/apartments';
 import { PenTool, X, Copy, RefreshCw } from 'lucide-react';
 import { Apartment } from '../types';
 import { ImageModal } from './ImageModal';
-import widok from "../assets/widok_01.jpg";
+
 
 export const InteractiveEstateMap: React.FC = () => {
   const mappableApartments = APARTMENTS_DATA.filter(apt => apt.polygonPoints);
@@ -234,7 +234,7 @@ export const InteractiveEstateMap: React.FC = () => {
       )}
 
       <img 
-        src={widok} 
+        src="/olesnica-spalice/assets/widok_01.jpg" 
         alt="Wizualizacja Osiedla" 
         className="w-full h-auto block object-cover pointer-events-none"
       />
