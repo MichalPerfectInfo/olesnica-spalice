@@ -10,6 +10,8 @@ export interface Project {
   gallery: string[];
 }
 
+const base = "/olesnica-spalice/";
+
 export const projects: Project[] = [
   {
     id: 1,
@@ -17,12 +19,12 @@ export const projects: Project[] = [
     location: "Dąbrowa",
     year: "2024",
     units: "6 domków",
-    thumbnail: "assets/dabrowa/widok_2.jpg",
+    thumbnail: `${base}assets/dabrowa/widok_2.jpg`,
     gallery: [
-      "assets/dabrowa/widok_2.jpg",
-      "assets/dabrowa/widok_1.jpg",
-      "assets/dabrowa/realizacja_1.jpeg",
-      "assets/dabrowa/realizacja_4.jpeg",
+      `${base}assets/dabrowa/widok_2.jpg`,
+      `${base}assets/dabrowa/widok_1.jpg`,
+      `${base}assets/dabrowa/realizacja_1.jpeg`,
+      `${base}assets/dabrowa/realizacja_4.jpeg`,
     ]
   },
   {
@@ -31,10 +33,10 @@ export const projects: Project[] = [
     location: "Oleśnica, Rataje",
     year: "2016",
     units: "2 budynki mieszkalne",
-    thumbnail: "assets/Rataje/realizacja_1.jpeg",
+    thumbnail: `${base}assets/Rataje/realizacja_1.jpeg`,
     gallery: [
-      "assets/Rataje/realizacja_1.jpeg",
-      "assets/Rataje/realizacja_2.jpeg",
+      `${base}assets/Rataje/realizacja_1.jpeg`,
+      `${base}assets/Rataje/realizacja_2.jpeg`,
     ]
   },
   {
@@ -43,13 +45,13 @@ export const projects: Project[] = [
     location: "Oleśnica, ul Ludwikowska",
     year: "2019/2021",
     units: "2 osiedla budynków",
-    thumbnail: "assets/ludwikowska/widok_4.jpg",
+    thumbnail: `${base}assets/ludwikowska/widok_4.jpg`,
     gallery: [
-      "assets/ludwikowska/realizacja_1.jpg",
-      "assets/ludwikowska/realizacja_2.jpg",
-      "assets/ludwikowska/realizacja_3.jpg",
-      "assets/ludwikowska/realizacja_4.jpg",
-      "assets/ludwikowska/realizacja_5.jpg",
+      `${base}assets/ludwikowska/realizacja_1.jpg`,
+      `${base}assets/ludwikowska/realizacja_2.jpg`,
+      `${base}assets/ludwikowska/realizacja_3.jpg`,
+      `${base}assets/ludwikowska/realizacja_4.jpg`,
+      `${base}assets/ludwikowska/realizacja_5.jpg`,
     ]
   },
   {
@@ -58,11 +60,11 @@ export const projects: Project[] = [
     location: "Spalice",
     year: "2023",
     units: "Osiedle domów jednorodzinnych",
-    thumbnail: "assets/spalice/widok_1.jpg",
+    thumbnail: `${base}assets/spalice/widok_1.jpg`,
     gallery: [
-      "assets/spalice/widok_2.jpg",
-      "assets/spalice/realizacja_1.jpeg",
-      "assets/spalice/realizacja_2.jpeg",
+      `${base}assets/spalice/widok_2.jpg`,
+      `${base}assets/spalice/realizacja_1.jpeg`,
+      `${base}assets/spalice/realizacja_2.jpeg`,
     ]
   },
 ];
