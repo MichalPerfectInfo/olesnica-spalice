@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, HeartOff } from 'lucide-react';
-import logo from "../assets/logo.png";
 
 const navLinks = [
   //{ name: "Inne inwestycje", href: "#inne-inwestycje"},
@@ -31,7 +30,7 @@ export const Navigation: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center h-full">
             <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="flex items-center cursor-pointer group h-full">
-              <img src={logo} alt="Osiedle Sosnowe" className="h-24 w-auto object-contain translate-y-1" />
+              <img src="/olesnica-spalice/assets/logo.png" alt="Osiedle Sosnowe" className="h-24 w-auto object-contain translate-y-1" />
             </a>
           </div>
 
