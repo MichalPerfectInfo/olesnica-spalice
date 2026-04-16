@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
              <div className="text-gray-400 text-sm space-y-4">
                <p>
                  <a href="mailto:werbudpw@gmail.com" className="hover:text-white block mb-1 underline decoration-primary-500 underline-offset-4">werbudpw@gmail.com</a>
-                 <a href="tel:+48601401782" className="hover:text-white font-bold block text-lg mt-2 text-white">+48 601 401 782</a>
+                 <a href="tel:+48666501413" className="hover:text-white font-bold block text-lg mt-2 text-white">+48 666 501 413</a>
                </p>
              </div>
           </div>

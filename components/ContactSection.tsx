@@ -10,7 +10,7 @@ export const AboutInvestor: React.FC = () => (
       <h2 className="text-3xl font-bold text-gray-900 mb-8">Inwestycje budowane na solidnych fundamentach</h2>
       <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
         <p>
-          Firma DOMI-BUD Tomasz Wach to doświadczony deweloper specjalizujący się w realizacji kameralnych inwestycji mieszkaniowych. Naszym celem jest tworzenie przestrzeni, które stają się czymś więcej niż tylko budynkami - prawdziwym miejscem do życia.
+          Firma DOMI-BUD to doświadczony deweloper specjalizujący się w realizacji kameralnych inwestycji mieszkaniowych. Naszym celem jest tworzenie przestrzeni, które stają się czymś więcej niż tylko budynkami - prawdziwym miejscem do życia.
         </p>
         <p>
           Każdy projekt rozpoczynamy od dokładnej analizy terenu oraz oceny potencjału lokalizacji. Stawiamy na miejsca, które zapewniają zarówno wygodę mieszkańcom, jak i długoterminowy wzrost wartości nieruchomości.
@@ -95,7 +95,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
                  <div className="p-3 bg-primary-50 rounded-lg text-primary-700"><Phone /></div>
                  <div>
                    <h4 className="font-bold text-gray-900 text-lg mb-1">Telefon</h4>
-                   <a href="tel:+48601401782 " className="block text-primary-600 hover:text-primary-700 hover:underline transition-colors">+48 601 401 782</a>
+                   <a href="tel:+48666501413 " className="block text-primary-600 hover:text-primary-700 hover:underline transition-colors">+48 666 501 413</a>
                  </div>
               </div>
             </div>

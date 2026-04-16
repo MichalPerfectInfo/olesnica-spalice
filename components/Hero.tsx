@@ -2,6 +2,7 @@ import React from 'react';
 import { Home, Wifi, ShieldCheck, Maximize } from 'lucide-react';
 import { Award, ArrowRight } from 'lucide-react';
 import widok1 from "../assets/widok_01.jpg"
+import {ProjectsCarousel} from "../components/ProjectsCarousel"
 
 export const Hero: React.FC = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -63,6 +64,8 @@ export const Hero: React.FC = () => {
         </div>
       </div>
 
+
+      <ProjectsCarousel/>
       {false && (
         <div id="inne-inwestycje" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 scroll-mt-24">
         <div className="relative rounded-2xl overflow-hidden shadow-2xl group">

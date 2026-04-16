@@ -52,11 +52,11 @@ export const Navigation: React.FC = () => {
           {/* CTA Button Desktop */}
           <div className="hidden lg:flex items-center">
             <a
-              href="tel:+48601401782"
+              href="tel:+48666501413"
               className="flex items-center gap-2 bg-primary-600 text-white px-5 py-2.5 rounded-lg hover:bg-primary-700 transition-all hover:shadow-md font-semibold text-sm"
             >
               <Phone size={16} />
-              <span>+48 601 401 782</span>
+              <span>+48 666 501 413</span>
             </a>
           </div>
 
@@ -87,10 +87,10 @@ export const Navigation: React.FC = () => {
               </a>
             ))}
             <a
-              href="tel:+48601401782"
+              href="tel:+48666501413"
               className="block w-full text-center mt-6 px-5 py-3 rounded-lg bg-primary-600 text-white font-bold shadow-md"
             >
-              Zadzwoń: +48 601 401 782
+              Zadzwoń: +48 666 501 413
             </a>
           </div>
         </div>
