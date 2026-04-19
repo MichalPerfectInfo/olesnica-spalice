@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white inline-block">Deweloper</h4>
             <div className="text-gray-400 text-sm space-y-3">
-              <p className="font-bold text-white text-lg mb-2">DOMI-BUD Tomasz Wach</p>
+              <p className="font-bold text-white text-lg mb-2">DOMI-BUD</p>
               <p>ul. Kazimierza Pułaskiego 7b</p>
               <p>56-400, Oleśnica</p>
               <div className="pt-4 space-y-1 text-xs opacity-60">

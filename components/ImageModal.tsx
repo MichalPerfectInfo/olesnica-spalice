@@ -47,7 +47,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({ apartment, onClose }) =>
       >
         {/* Fixed header */}
         <div className="flex justify-between items-center px-4 md:px-6 py-4 border-b border-gray-200 flex-shrink-0">
-          <h3 className="text-xl font-bold text-gray-900">Rzut mieszkania {apartment.number}</h3>
+          <h3 className="text-xl font-bold text-gray-900">Rzut mieszkania {apartment.number} (planowany koniec budowy- {apartment.number.includes("A") ? "lipiec 2026" : "marzec 2027"})</h3>
           <button 
             onClick={onClose} 
             className="text-gray-500 hover:text-gray-900 transition-colors p-2 -mr-2 rounded-full"

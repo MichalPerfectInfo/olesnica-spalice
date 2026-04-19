@@ -113,7 +113,7 @@ export const Hero: React.FC = () => {
             <FeatureBox icon={<Home className="text-primary-600" />} title="Media miejskie" desc="Pełne uzbrojenie terenu" />
             <FeatureBox icon={<Maximize className="text-primary-600" />} title="podjazdy" desc="2 miejsca postojowe" />
             <FeatureBox icon={<Home className="text-primary-600" />} title="Ogródki" desc="Nawet do 100m" />
-            <FeatureBox icon={<Wifi className="text-primary-600" />} title="Technologia" desc="Światłowód" />
+            <FeatureBox icon={<Wifi className="text-primary-600" />} title="Technologia" desc="Możliwość podłączenia światłowodu" />
           </div>
         </div>
       </div>

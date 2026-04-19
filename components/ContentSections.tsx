@@ -165,13 +165,14 @@ export const TechSpecs: React.FC = () => (
       <h2 className="text-3xl font-bold mb-12 text-center text-white">Specyfikacja Techniczna</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <TechItem icon={<Flame />} text="Dobra lokalizacja" />
-        <TechItem icon={<VolumeX />} text="Ściany wykonane z wysokiej jakości materiałów" />
+        <TechItem icon={<VolumeX />} text="Ściany nośne wykonane z pustaka ceramicznego" />
         <TechItem icon={<Layers />} text="Chodnik" />
         <TechItem icon={<Grid />} text="Pompa ciepła z modułem WiFi" />
         <TechItem icon={<Flame />} text="Ogrzewanie podłogowe" />
         <TechItem icon={<Shield />} text="Antywłamaniowe drzwi wejściowe" />
         <TechItem icon={<Car />} text="2 miejsca postojowe" />
-        <TechItem icon={<Layers />} text="Internet Światłowodowy" />
+        <TechItem icon={<Layers />} text="3 szybowe okna klasy premium" /> 
+        <TechItem icon={<Shield />} text="Elektryczne rolety we wszystkich oknach" />
       </div>
     </div>
   </section>

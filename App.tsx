@@ -3,7 +3,7 @@ import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { LocationSection, InfrastructureSection, StandardsSection, TechSpecs, LayoutInfo, VisualNavigator } from './components/ContentSections';
 import { ApartmentList } from './components/ApartmentList';
-import { AdditionalInfo, ProcessSection } from './components/Process';
+import {ProcessSection } from './components/Process';
 import { AboutInvestor, ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 
@@ -20,7 +20,6 @@ const App: React.FC = () => {
         <TechSpecs />
         <LayoutInfo />
         <ApartmentList />
-        <AdditionalInfo />
         <ProcessSection />
         <AboutInvestor />
         <ContactSection />
