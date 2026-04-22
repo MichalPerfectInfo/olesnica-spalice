@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
         {/* Right Slider / Image */}
         <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] md:h-[500px]">
           <img 
-            src="/olesnica-spalice/assets/widok_01.jpg"
+            src="../assets/widok_01.jpg"
             alt="Wizualizacja osiedla" 
             className="w-full h-full object-cover"
           />

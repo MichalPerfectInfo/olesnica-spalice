@@ -104,7 +104,7 @@ const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100" id="formularz">
             {/* Map Placeholder */}
             <div className="w-full h-56 bg-gray-100 rounded-xl mb-8 relative overflow-hidden flex items-center justify-center group">
-               <img src="/olesnica-spalice/assets/auto.jpg" alt="Mapa" className="absolute inset-0 w-full h-full object-cover opacity-70 transition-opacity group-hover:opacity-90" />
+               <img src="../assets/auto.jpg" alt="Mapa" className="absolute inset-0 w-full h-full object-cover opacity-70 transition-opacity group-hover:opacity-90" />
                <div className="relative z-10 flex flex-col gap-3">
                   <a 
                     href="https://maps.app.goo.gl/J6kCXDHHGWUYCXY27" 
