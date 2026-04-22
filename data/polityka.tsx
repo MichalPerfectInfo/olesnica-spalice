@@ -50,7 +50,7 @@ export const Polityka: React.FC = () => {
       <div>
         <h4 className="font-bold text-gray-800 text-base mb-1 mt-6">4. POLITYKA PLIKÓW COOKIES</h4>
         <p>
-          Serwis TO DO ogranicza wykorzystanie plików cookies wyłącznie do plików niezbędnych (technicznych), które są wymagane do prawidłowego wyświetlania i działania strony internetowej.
+          Serwis https://sosnowe-osiedle.pl ogranicza wykorzystanie plików cookies wyłącznie do plików niezbędnych (technicznych), które są wymagane do prawidłowego wyświetlania i działania strony internetowej.
         </p>
         <p className="mt-2">
           Strona nie stosuje plików cookies o charakterze analitycznym, śledzącym ani marketingowym.
