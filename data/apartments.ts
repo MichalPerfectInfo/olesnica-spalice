@@ -13,7 +13,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "584,662,844,691,843,517,581,519"
     ],
     imageUrls: [
-      `${base}assets/karty1.jpg`
+      `../assets/karty1.jpg`
     ]
   },
   { 
@@ -26,7 +26,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "841,506,841,340,939,220,728,256,623,363,584,410,584,511"
     ],
     imageUrls: [
-      `${base}assets/karty2.jpg`
+      `../assets/karty2.jpg`
     ]
   },
   { 
@@ -39,7 +39,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "880,696,1263,736,1262,519,880,521"
     ],
     imageUrls: [
-      `${base}assets/karty1.jpg`
+      `../assets/karty1.jpg`
     ]
   },
   { 
@@ -52,7 +52,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "1260,502,1265,357,1356,151,978,212,876,334,881,506"
     ],
     imageUrls: [
-      `${base}assets/karty2.jpg`
+      `../assets/karty2.jpg`
     ]
   },
   { 
@@ -65,7 +65,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "129,628,244,639,243,529,133,529"
     ],
     imageUrls: [
-      `${base}assets/karty1.jpg`
+      `../assets/karty1.jpg`
     ]
   },
   { 
@@ -78,7 +78,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "263,639,396,649,393,529,263,529"
     ],
     imageUrls: [
-      `${base}assets/karty1.jpg`
+      `../assets/karty1.jpg`
     ]
   },
   { 
@@ -91,7 +91,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "133,523,129,450,146,418,241,410,241,521"
     ],
     imageUrls: [
-      `${base}assets/karty2.jpg`
+      `../assets/karty2.jpg`
     ]
   },
   { 
@@ -104,7 +104,7 @@ export const APARTMENTS_DATA: Apartment[] = [
       "259,519,259,405,393,393,395,515"
     ],
     imageUrls: [
-      `${base}assets/karty2.jpg`
+      `../assets/karty2.jpg`
     ]
   }
 ];
