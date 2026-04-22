@@ -3,6 +3,7 @@ import { APARTMENTS_DATA } from '../data/apartments';
 import { PenTool, X, Copy, RefreshCw } from 'lucide-react';
 import { Apartment } from '../types';
 import { ImageModal } from './ImageModal';
+import zdjecie from '../assets/widok_01.jpg';
 
 
 export const InteractiveEstateMap: React.FC = () => {
@@ -234,7 +235,7 @@ export const InteractiveEstateMap: React.FC = () => {
       )}
 
       <img 
-        src="/olesnica-spalice/assets/widok_01.jpg" 
+        src={zdjecie}
         alt="Wizualizacja Osiedla" 
         className="w-full h-auto block object-cover pointer-events-none"
       />
